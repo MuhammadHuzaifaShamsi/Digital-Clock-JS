@@ -1,0 +1,71 @@
+@import url('http://fonts.cdnfonts.com/css/engender-mod-font');
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+.container{
+    color: skyblue;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 8rem; 
+}
+
+#session{
+    font-size: 3rem;
+    text-align: right;
+}
+
+#day{
+    font-size: 2rem;
+    margin-left: 4rem;
+}
+
+@media (max-width: 1070px) {
+    .container{
+        font-size: 6rem;
+    }
+    #session{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 799px) {
+    .container{
+        font-size: 5rem;
+    }
+    #session{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 666px) {
+    .container{
+        font-size: 4rem;
+    }
+    #session{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 533px) {
+    .container{
+        font-size: 3rem;
+    }
+    #session{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 399px) {
+    .container{
+        position: absolute;
+        left: 42%;
+        font-size: 3rem;
+    }
+}
